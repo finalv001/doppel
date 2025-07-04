@@ -1,0 +1,89 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+**/build/
+**/out/
+**/out-release/
+**/out-release-exe/
+**/out-debug/
+**/buildLinux/
+**/cmake-build-debug/
+**/cmake-build-release/
+**/test/
+**/_project/
+**/include/SFML
+
+# Prebuild files and assets
+lib/
+
+
+# Source Code
+*.ilk
+*.pdb
+*.suo
+*.db
+*.opendb
+
+#custom
+*.ipch
+*.dtbcache
+*.lock
+*.ide*
+
+Tools/**/*.cache
+*.CopyComplete
+.vs
+
+# Build helpers and results:
+**/obj/
+
+# Visual Studio
+**/.vs
+
+# CLion
+**/.idea
+
+# Clangd
+**/.cache
+
+# Emacs
+**/.dir-locals.el
+
+# CMake
+**/CMakeSettings.json
+
+# MacOS
+.DS_Store
+assets/models/floor.glb
+assets/models/water_floor.glb
+assets/models/env.glb
+assets/models/jumpnrun_bloomy.glb
+assets/models/jumpnrun_dither.glb
+assets/models/remote.glb
+assets/models/water.glb
+assets/textures/remote_basecolor.dds
