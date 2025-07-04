@@ -24,3 +24,4 @@ visual_studio/examples/**/*.user text eol=crlf
 *.so binary
 *.dylib binary
 bin/PhysXGpu_64.dll filter=lfs diff=lfs merge=lfs -text
+include/physx/dll/PhysXGpu_64.dll filter=lfs diff=lfs merge=lfs -text
